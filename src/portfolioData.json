@@ -1,0 +1,1409 @@
+[
+  {
+    "summary": "品牌海报、电商视觉、节气内容与营销页面。",
+    "id": "graphic",
+    "no": "01",
+    "color": "#f04b49",
+    "groups": [
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "607b202ae9493ee76a333319dd48119d",
+            "height": 2867,
+            "type": "image",
+            "src": "/portfolio/graphic/project-01/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-01/thumb-01.jpg"
+          }
+        ],
+        "title": "607b202ae9493ee76a333319dd48119d",
+        "description": "607b202ae9493ee76a333319dd48119d 单项作品。",
+        "en": "PROJECT 01 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1010,
+            "name": "618",
+            "height": 1558,
+            "type": "image",
+            "src": "/portfolio/graphic/project-02/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-02/thumb-01.jpg"
+          }
+        ],
+        "title": "618",
+        "description": "618 单项作品。",
+        "en": "PROJECT 02 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "618海报1",
+            "height": 2867,
+            "type": "image",
+            "src": "/portfolio/graphic/project-03/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-03/thumb-01.jpg"
+          }
+        ],
+        "title": "618海报1",
+        "description": "618海报1 单项作品。",
+        "en": "PROJECT 03 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "app详情页",
+            "height": 6614,
+            "type": "image",
+            "src": "/portfolio/graphic/project-04/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-04/thumb-01.jpg"
+          }
+        ],
+        "title": "app详情页",
+        "description": "app详情页 单项作品。",
+        "en": "PROJECT 04 / GRAPHIC",
+        "long": true
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "vr",
+            "height": 9948,
+            "type": "image",
+            "src": "/portfolio/graphic/project-05/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-05/thumb-01.jpg"
+          }
+        ],
+        "title": "vr",
+        "description": "vr 单项作品。",
+        "en": "PROJECT 05 / GRAPHIC",
+        "long": true
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "公众号",
+            "height": 8812,
+            "type": "image",
+            "src": "/portfolio/graphic/project-06/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-06/thumb-01.jpg"
+          }
+        ],
+        "title": "公众号",
+        "description": "公众号 单项作品。",
+        "en": "PROJECT 06 / GRAPHIC",
+        "long": true
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "小暑",
+            "height": 2143,
+            "type": "image",
+            "src": "/portfolio/graphic/project-07/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-07/thumb-01.jpg"
+          }
+        ],
+        "title": "小暑",
+        "description": "小暑 单项作品。",
+        "en": "PROJECT 07 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "小满",
+            "height": 2143,
+            "type": "image",
+            "src": "/portfolio/graphic/project-08/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-08/thumb-01.jpg"
+          }
+        ],
+        "title": "小满",
+        "description": "小满 单项作品。",
+        "en": "PROJECT 08 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "挖物",
+            "height": 1600,
+            "type": "image",
+            "src": "/portfolio/graphic/project-09/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-09/thumb-01.jpg"
+          }
+        ],
+        "title": "挖物",
+        "description": "挖物 单项作品。",
+        "en": "PROJECT 09 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1024,
+            "name": "端午",
+            "height": 1536,
+            "type": "image",
+            "src": "/portfolio/graphic/project-10/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-10/thumb-01.jpg"
+          }
+        ],
+        "title": "端午",
+        "description": "端午 单项作品。",
+        "en": "PROJECT 10 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "芒种",
+            "height": 2143,
+            "type": "image",
+            "src": "/portfolio/graphic/project-11/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-11/thumb-01.jpg"
+          }
+        ],
+        "title": "芒种",
+        "description": "芒种 单项作品。",
+        "en": "PROJECT 11 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1024,
+            "name": "营销页",
+            "height": 1536,
+            "type": "image",
+            "src": "/portfolio/graphic/project-12/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-12/thumb-01.jpg"
+          }
+        ],
+        "title": "营销页",
+        "description": "营销页 单项作品。",
+        "en": "PROJECT 12 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1086,
+            "name": "营销页2",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/graphic/project-13/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-13/thumb-01.jpg"
+          }
+        ],
+        "title": "营销页2",
+        "description": "营销页2 单项作品。",
+        "en": "PROJECT 13 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "banner1",
+            "height": 524,
+            "type": "image",
+            "src": "/portfolio/graphic/project-14/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-14/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "banner2",
+            "height": 524,
+            "type": "image",
+            "src": "/portfolio/graphic/project-14/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-14/thumb-02.jpg"
+          }
+        ],
+        "title": "banner",
+        "description": "banner 项目，包含 2 个相关视觉或动态文件。",
+        "en": "PROJECT 14 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "4daf70361163c38eb8f1cf72eff656d6",
+            "height": 577,
+            "type": "image",
+            "src": "/portfolio/graphic/project-15/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-15/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "4e7d1b8bc8f846e67a849939b7445e87",
+            "height": 577,
+            "type": "image",
+            "src": "/portfolio/graphic/project-15/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-15/thumb-02.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "5d1893bddf48237e907324a7b0d43eac",
+            "height": 578,
+            "type": "image",
+            "src": "/portfolio/graphic/project-15/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-15/thumb-03.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "6614214b2193c6e25b4c8ec5517a1e61",
+            "height": 577,
+            "type": "image",
+            "src": "/portfolio/graphic/project-15/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-15/thumb-04.jpg"
+          }
+        ],
+        "title": "banner2",
+        "description": "banner2 项目，包含 4 个相关视觉或动态文件。",
+        "en": "PROJECT 15 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "未标题-4",
+            "height": 8858,
+            "type": "image",
+            "src": "/portfolio/graphic/project-16/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-16/thumb-01.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "1229e7aa0869903aada162a5402aa25b",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-16/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-16/thumb-02.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "2034f62a7e76cb4dd18b026dee58e5f2",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-16/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-16/thumb-03.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "22d35ef59569dff73ded26a96c15410b",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-16/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-16/thumb-04.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "2c80d90a1c8c09c78d69e5eec37cd002",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-16/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-16/thumb-05.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "a8599cfd739939d7fa25c692ec93047d",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-16/image-06.jpg",
+            "thumb": "/portfolio/graphic/project-16/thumb-06.jpg"
+          }
+        ],
+        "title": "喷淋",
+        "description": "喷淋 项目，包含 6 个相关视觉或动态文件。",
+        "en": "PROJECT 16 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "未标题-4",
+            "height": 6944,
+            "type": "image",
+            "src": "/portfolio/graphic/project-17/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-17/thumb-01.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "26122c446ff0379d2d9c73fcb55985fe",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-17/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-17/thumb-02.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "7bf05d4d7b42abeaa20998dfcf127028",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-17/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-17/thumb-03.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "804feecc6eb6889d366a057a10823543",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-17/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-17/thumb-04.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "956ca09af1289a7d8f3517b9bbd22241",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-17/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-17/thumb-05.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "d8edc253be1ae0e4ad3507030193c73d",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-17/image-06.jpg",
+            "thumb": "/portfolio/graphic/project-17/thumb-06.jpg"
+          }
+        ],
+        "title": "地砖",
+        "description": "地砖 项目，包含 6 个相关视觉或动态文件。",
+        "en": "PROJECT 17 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "未标题-5",
+            "height": 6822,
+            "type": "image",
+            "src": "/portfolio/graphic/project-18/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-18/thumb-01.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "059bc4f4b0f487ab42d0f81a25f4f9de",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-18/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-18/thumb-02.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "6393a65e15c2ca9ab049358e7872a751",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-18/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-18/thumb-03.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "86ba6fdc054d2a9dd8651fc5a9b0607c",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-18/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-18/thumb-04.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "ae00e838585e9aa01dd9a5410aa7c046",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-18/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-18/thumb-05.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "c416a4d74f2666d4631f97bc8e0bcbe4",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-18/image-06.jpg",
+            "thumb": "/portfolio/graphic/project-18/thumb-06.jpg"
+          }
+        ],
+        "title": "大理石",
+        "description": "大理石 项目，包含 6 个相关视觉或动态文件。",
+        "en": "PROJECT 18 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "未标题-1",
+            "height": 8917,
+            "type": "image",
+            "src": "/portfolio/graphic/project-19/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-19/thumb-01.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "1b908bfa5dc4ea6077e24945c6d29963",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-19/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-19/thumb-02.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "1c204fa9726b6c6fc37e1fc560a1e7c0",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-19/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-19/thumb-03.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "1eab08e646a7d82f49fffbb48306d413",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-19/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-19/thumb-04.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "651b398c0a2398c7bac513fef0a6e8f6",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-19/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-19/thumb-05.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "9bf5c2aed8b4a4ce449a437261d7d327",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-19/image-06.jpg",
+            "thumb": "/portfolio/graphic/project-19/thumb-06.jpg"
+          }
+        ],
+        "title": "水杯",
+        "description": "水杯 项目，包含 6 个相关视觉或动态文件。",
+        "en": "PROJECT 19 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "未标题-2",
+            "height": 8000,
+            "type": "image",
+            "src": "/portfolio/graphic/project-20/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-20/thumb-01.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "357dbff39b08d9a5454845721b58c213",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-20/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-20/thumb-02.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "69eca5689a489e48bc09850067c7dc10",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-20/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-20/thumb-03.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "907bf779085c34450e26df79f29f0da2",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-20/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-20/thumb-04.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "9d496f88b30804367c35f1523b0a313b",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-20/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-20/thumb-05.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "b0546f07a6d8b3b290b43f5debd5b3ec",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-20/image-06.jpg",
+            "thumb": "/portfolio/graphic/project-20/thumb-06.jpg"
+          }
+        ],
+        "title": "水龙头",
+        "description": "水龙头 项目，包含 6 个相关视觉或动态文件。",
+        "en": "PROJECT 20 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "未标题-1",
+            "height": 7917,
+            "type": "image",
+            "src": "/portfolio/graphic/project-21/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-21/thumb-01.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "536bcde02710e809fb4f9b00e9cc35d6",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-21/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-21/thumb-02.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "57a816936b33646f02ae77054b96f44c",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-21/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-21/thumb-03.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "7077b2478956e9448e09adf661b4b742",
+            "height": 1600,
+            "type": "image",
+            "src": "/portfolio/graphic/project-21/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-21/thumb-04.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "7c97e028805dc4731edcc14b0cf4c35a",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-21/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-21/thumb-05.jpg"
+          },
+          {
+            "width": 1254,
+            "name": "c13439c15c0d4ce722933af43f97f083 (1)",
+            "height": 1254,
+            "type": "image",
+            "src": "/portfolio/graphic/project-21/image-06.jpg",
+            "thumb": "/portfolio/graphic/project-21/thumb-06.jpg"
+          }
+        ],
+        "title": "运动鞋",
+        "description": "运动鞋 项目，包含 6 个相关视觉或动态文件。",
+        "en": "PROJECT 21 / GRAPHIC",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "1",
+            "height": 1600,
+            "type": "image",
+            "src": "/portfolio/graphic/project-22/image-01.jpg",
+            "thumb": "/portfolio/graphic/project-22/thumb-01.jpg"
+          },
+          {
+            "width": 1024,
+            "name": "2",
+            "height": 1024,
+            "type": "image",
+            "src": "/portfolio/graphic/project-22/image-02.jpg",
+            "thumb": "/portfolio/graphic/project-22/thumb-02.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "3",
+            "height": 1600,
+            "type": "image",
+            "src": "/portfolio/graphic/project-22/image-03.jpg",
+            "thumb": "/portfolio/graphic/project-22/thumb-03.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "4",
+            "height": 1600,
+            "type": "image",
+            "src": "/portfolio/graphic/project-22/image-04.jpg",
+            "thumb": "/portfolio/graphic/project-22/thumb-04.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "65732108253157bb8a1ac44787bc8708",
+            "height": 1600,
+            "type": "image",
+            "src": "/portfolio/graphic/project-22/image-05.jpg",
+            "thumb": "/portfolio/graphic/project-22/thumb-05.jpg"
+          }
+        ],
+        "title": "马桶",
+        "description": "马桶 项目，包含 5 个相关视觉或动态文件。",
+        "en": "PROJECT 22 / GRAPHIC",
+        "long": false
+      }
+    ],
+    "en": "GRAPHIC",
+    "count": "22 个项目 / 60 个文件",
+    "zh": "平面设计",
+    "cover": {
+      "type": "image",
+      "src": "/images/category-covers/graphic-cover.jpg",
+      "thumb": "/images/category-covers/graphic-cover.jpg",
+      "name": "平面设计分类封面"
+    }
+  },
+  {
+    "summary": "AI 商品视觉、详情页、概念图与内容封面。",
+    "id": "aigc",
+    "no": "02",
+    "color": "#8756c9",
+    "groups": [
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "沐浴露",
+            "height": 8769,
+            "type": "image",
+            "src": "/portfolio/aigc/project-01/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-01/thumb-01.jpg"
+          }
+        ],
+        "title": "沐浴露",
+        "description": "沐浴露 单项作品。",
+        "en": "PROJECT 01 / GENERATIVE AI",
+        "long": true
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "洗发水",
+            "height": 8789,
+            "type": "image",
+            "src": "/portfolio/aigc/project-02/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-02/thumb-01.jpg"
+          }
+        ],
+        "title": "洗发水",
+        "description": "洗发水 单项作品。",
+        "en": "PROJECT 02 / GENERATIVE AI",
+        "long": true
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "游戏机",
+            "height": 8869,
+            "type": "image",
+            "src": "/portfolio/aigc/project-03/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-03/thumb-01.jpg"
+          }
+        ],
+        "title": "游戏机",
+        "description": "游戏机 单项作品。",
+        "en": "PROJECT 03 / GENERATIVE AI",
+        "long": true
+      },
+      {
+        "media": [
+          {
+            "width": 750,
+            "name": "手机1",
+            "height": 9632,
+            "type": "image",
+            "src": "/portfolio/aigc/project-04/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-04/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "详情页",
+            "height": 2133,
+            "type": "image",
+            "src": "/portfolio/aigc/project-04/image-02.jpg",
+            "thumb": "/portfolio/aigc/project-04/thumb-02.jpg"
+          }
+        ],
+        "title": "手机",
+        "description": "手机 项目，包含 2 个相关视觉或动态文件。",
+        "en": "PROJECT 04 / GENERATIVE AI",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "4799f3c6b136a71a3c8bc4941aa2a16c",
+            "height": 2143,
+            "type": "image",
+            "src": "/portfolio/aigc/project-05/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-05/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "f3d2e61ec07309bf60be97c12ef5f6d7",
+            "height": 2143,
+            "type": "image",
+            "src": "/portfolio/aigc/project-05/image-02.jpg",
+            "thumb": "/portfolio/aigc/project-05/thumb-02.jpg"
+          }
+        ],
+        "title": "果酒",
+        "description": "果酒 项目，包含 2 个相关视觉或动态文件。",
+        "en": "PROJECT 05 / GENERATIVE AI",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1080,
+            "name": "汽车配件-封面",
+            "height": 1920,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-01.jpg"
+          },
+          {
+            "width": 1086,
+            "name": "0a387c181b59963622c85ac06261db81",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-02.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-02.jpg"
+          },
+          {
+            "width": 1090,
+            "name": "2ce5d7a68460dbc6416468ba6cbfb8cc",
+            "height": 1443,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-03.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-03.jpg"
+          },
+          {
+            "width": 1086,
+            "name": "3dc0f6888fec79e0151cb0c15946cf2f",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-04.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-04.jpg"
+          },
+          {
+            "width": 1086,
+            "name": "51b71efa92a4491842d435ed3c6b344e",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-05.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-05.jpg"
+          },
+          {
+            "width": 1086,
+            "name": "a7633ee8900edd490dbb0de426d0adec",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-06.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-06.jpg"
+          },
+          {
+            "width": 1090,
+            "name": "c1c257cd9fab2160fb4a8f1389e340a2",
+            "height": 1443,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-07.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-07.jpg"
+          },
+          {
+            "width": 1088,
+            "name": "dd77a28134c6ec3c27cf4f8c0dc7e003",
+            "height": 1445,
+            "type": "image",
+            "src": "/portfolio/aigc/project-06/image-08.jpg",
+            "thumb": "/portfolio/aigc/project-06/thumb-08.jpg"
+          }
+        ],
+        "title": "视频封面",
+        "description": "视频封面 项目，包含 8 个相关视觉或动态文件。",
+        "en": "PROJECT 06 / GENERATIVE AI",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1500,
+            "name": "电商详情页1",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-07/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-07/thumb-01.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "详情页2",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-07/image-02.jpg",
+            "thumb": "/portfolio/aigc/project-07/thumb-02.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "详情页3",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-07/image-03.jpg",
+            "thumb": "/portfolio/aigc/project-07/thumb-03.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "详情页4",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-07/image-04.jpg",
+            "thumb": "/portfolio/aigc/project-07/thumb-04.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "详情页5",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-07/image-05.jpg",
+            "thumb": "/portfolio/aigc/project-07/thumb-05.jpg"
+          }
+        ],
+        "title": "香水详情页1",
+        "description": "香水详情页1 项目，包含 5 个相关视觉或动态文件。",
+        "en": "PROJECT 07 / GENERATIVE AI",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1085,
+            "name": "fe5fc7b76250603c4277a1153c739f57",
+            "height": 1450,
+            "type": "image",
+            "src": "/portfolio/aigc/project-08/image-01.jpg",
+            "thumb": "/portfolio/aigc/project-08/thumb-01.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "松香",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-08/image-02.jpg",
+            "thumb": "/portfolio/aigc/project-08/thumb-02.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "松香2",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-08/image-03.jpg",
+            "thumb": "/portfolio/aigc/project-08/thumb-03.jpg"
+          },
+          {
+            "width": 1500,
+            "name": "松香3",
+            "height": 2000,
+            "type": "image",
+            "src": "/portfolio/aigc/project-08/image-04.jpg",
+            "thumb": "/portfolio/aigc/project-08/thumb-04.jpg"
+          }
+        ],
+        "title": "香水详情页2",
+        "description": "香水详情页2 项目，包含 4 个相关视觉或动态文件。",
+        "en": "PROJECT 08 / GENERATIVE AI",
+        "long": false
+      }
+    ],
+    "en": "GENERATIVE AI",
+    "count": "8 个项目 / 24 个文件",
+    "zh": "AIGC",
+    "cover": {
+      "width": 750,
+      "name": "沐浴露",
+      "height": 8769,
+      "type": "image",
+      "src": "/portfolio/aigc/project-01/image-01.jpg"
+    }
+  },
+  {
+    "summary": "角色设定、动态演绎与多场景衍生应用。",
+    "id": "ip",
+    "no": "03",
+    "color": "#e98023",
+    "groups": [
+      {
+        "media": [
+          {
+            "width": 1086,
+            "name": "厨师",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/ip/project-01/image-01.jpg",
+            "thumb": "/portfolio/ip/project-01/thumb-01.jpg"
+          }
+        ],
+        "title": "厨师",
+        "description": "厨师 单项作品。",
+        "en": "PROJECT 01 / CHARACTER / IP",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1127,
+            "name": "0a30a873413d6fab15baeb87cac10925",
+            "height": 1396,
+            "type": "image",
+            "src": "/portfolio/ip/project-02/image-01.jpg",
+            "thumb": "/portfolio/ip/project-02/thumb-01.jpg"
+          },
+          {
+            "width": 1090,
+            "name": "3f756cfd99dddc53a7e0604e267c1ecd",
+            "height": 1443,
+            "type": "image",
+            "src": "/portfolio/ip/project-02/image-02.jpg",
+            "thumb": "/portfolio/ip/project-02/thumb-02.jpg"
+          },
+          {
+            "name": "0a76cdd492e5d7cd342d10dd36ad9566",
+            "type": "video",
+            "src": "/portfolio/ip/project-02/video-03.mp4"
+          },
+          {
+            "name": "ce859833a09d3759f86900c3460e05dc",
+            "type": "video",
+            "src": "/portfolio/ip/project-02/video-04.mp4"
+          },
+          {
+            "name": "d4aba681b83005648b74ecfbc155df2d",
+            "type": "video",
+            "src": "/portfolio/ip/project-02/video-05.mp4"
+          }
+        ],
+        "title": "修女",
+        "description": "修女 项目，包含 5 个相关视觉或动态文件。",
+        "en": "PROJECT 02 / CHARACTER / IP",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1086,
+            "name": "3a8e56e5a48b24c438156fba47e6ae1f",
+            "height": 1448,
+            "type": "image",
+            "src": "/portfolio/ip/project-03/image-01.jpg",
+            "thumb": "/portfolio/ip/project-03/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "cd2df19525cca0cd978b7c2b9219a952",
+            "height": 893,
+            "type": "image",
+            "src": "/portfolio/ip/project-03/image-02.jpg",
+            "thumb": "/portfolio/ip/project-03/thumb-02.jpg"
+          },
+          {
+            "width": 1090,
+            "name": "f399be06d2edc88d1d0bf15eb3ba61be",
+            "height": 1443,
+            "type": "image",
+            "src": "/portfolio/ip/project-03/image-03.jpg",
+            "thumb": "/portfolio/ip/project-03/thumb-03.jpg"
+          },
+          {
+            "name": "c36d34da5bbc1adb699dfe78c6433c49",
+            "type": "video",
+            "src": "/portfolio/ip/project-03/video-04.mp4"
+          }
+        ],
+        "title": "龙女",
+        "description": "龙女 项目，包含 4 个相关视觉或动态文件。",
+        "en": "PROJECT 03 / CHARACTER / IP",
+        "long": false
+      }
+    ],
+    "en": "CHARACTER / IP",
+    "count": "3 个项目 / 10 个文件",
+    "zh": "IP 设计",
+    "cover": {
+      "type": "image",
+      "src": "/images/category-covers/ip-cover.jpg",
+      "thumb": "/images/category-covers/ip-cover.jpg",
+      "name": "IP 设计分类封面"
+    }
+  },
+  {
+    "summary": "小程序、产品界面与完整交互页面设计。",
+    "id": "ui",
+    "no": "04",
+    "color": "#168cb7",
+    "groups": [
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "佰孟教育",
+            "height": 3977,
+            "type": "image",
+            "src": "/portfolio/ui/project-01/image-01.jpg",
+            "thumb": "/portfolio/ui/project-01/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "佰孟教育子页面",
+            "height": 9578,
+            "type": "image",
+            "src": "/portfolio/ui/project-01/image-02.jpg",
+            "thumb": "/portfolio/ui/project-01/thumb-02.jpg"
+          }
+        ],
+        "title": "佰孟教育",
+        "description": "佰孟教育 项目，包含 2 个相关视觉或动态文件。",
+        "en": "PROJECT 01 / INTERFACE",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "1 (1)",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/ui/project-02/image-01.jpg",
+            "thumb": "/portfolio/ui/project-02/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "1 (2)",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/ui/project-02/image-02.jpg",
+            "thumb": "/portfolio/ui/project-02/thumb-02.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "1 (3)",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/ui/project-02/image-03.jpg",
+            "thumb": "/portfolio/ui/project-02/thumb-03.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "1 (4)",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/ui/project-02/image-04.jpg",
+            "thumb": "/portfolio/ui/project-02/thumb-04.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "1 (5)",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/ui/project-02/image-05.jpg",
+            "thumb": "/portfolio/ui/project-02/thumb-05.jpg"
+          }
+        ],
+        "title": "问诊",
+        "description": "问诊 项目，包含 5 个相关视觉或动态文件。",
+        "en": "PROJECT 02 / INTERFACE",
+        "long": false
+      }
+    ],
+    "en": "INTERFACE",
+    "count": "2 个项目 / 7 个文件",
+    "zh": "UI 设计",
+    "cover": {
+      "width": 1600,
+      "name": "佰孟教育",
+      "height": 3977,
+      "type": "image",
+      "src": "/portfolio/ui/project-01/image-01.jpg"
+    }
+  },
+  {
+    "summary": "产品短片、内容剪辑、教程与动态视觉实践。",
+    "id": "video",
+    "no": "05",
+    "color": "#2ca87a",
+    "groups": [
+      {
+        "media": [
+          {
+            "name": "m2",
+            "type": "video",
+            "src": "/portfolio/video/project-01/video-01.mp4",
+            "poster": "/portfolio/video/project-01/poster-01.jpg"
+          }
+        ],
+        "title": "m2",
+        "description": "m2 单项作品。",
+        "en": "PROJECT 01 / MOTION / VIDEO",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "name": "教程",
+            "type": "video",
+            "src": "/portfolio/video/project-02/video-01.mp4",
+            "poster": "/portfolio/video/project-02/poster-01.jpg"
+          }
+        ],
+        "title": "教程",
+        "description": "教程 单项作品。",
+        "en": "PROJECT 02 / MOTION / VIDEO",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "name": "电梯",
+            "type": "video",
+            "src": "/portfolio/video/project-03/video-01.mp4",
+            "poster": "/portfolio/video/project-03/poster-01.jpg"
+          }
+        ],
+        "title": "电梯",
+        "description": "电梯 单项作品。",
+        "en": "PROJECT 03 / MOTION / VIDEO",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "name": "耳机_吴烽华",
+            "type": "video",
+            "src": "/portfolio/video/project-04/video-01.mp4",
+            "poster": "/portfolio/video/project-04/poster-01.jpg"
+          }
+        ],
+        "title": "耳机_吴烽华",
+        "description": "耳机_吴烽华 单项作品。",
+        "en": "PROJECT 04 / MOTION / VIDEO",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "name": "茶2",
+            "type": "video",
+            "src": "/portfolio/video/project-05/video-01.mp4",
+            "poster": "/portfolio/video/project-05/poster-01.jpg"
+          }
+        ],
+        "title": "茶2",
+        "description": "茶2 单项作品。",
+        "en": "PROJECT 05 / MOTION / VIDEO",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "name": "茶具",
+            "type": "video",
+            "src": "/portfolio/video/project-06/video-01.mp4",
+            "poster": "/portfolio/video/project-06/poster-01.jpg"
+          }
+        ],
+        "title": "茶具",
+        "description": "茶具 单项作品。",
+        "en": "PROJECT 06 / MOTION / VIDEO",
+        "long": false
+      },
+      {
+        "media": [
+          {
+            "width": 834,
+            "name": "做菜-封面",
+            "height": 1112,
+            "type": "image",
+            "src": "/portfolio/video/project-07/image-01.jpg",
+            "thumb": "/portfolio/video/project-07/thumb-01.jpg"
+          },
+          {
+            "name": "做菜",
+            "type": "video",
+            "src": "/portfolio/video/project-07/video-02.mp4",
+            "poster": "/portfolio/video/project-07/poster-02.jpg"
+          }
+        ],
+        "title": "做菜",
+        "description": "做菜 项目，包含 2 个相关视觉或动态文件。",
+        "en": "PROJECT 07 / MOTION / VIDEO",
+        "long": false
+      }
+    ],
+    "en": "MOTION / VIDEO",
+    "count": "7 个项目 / 8 个文件",
+    "zh": "视频设计",
+    "cover": {
+      "type": "image",
+      "src": "/images/category-covers/video-cover.jpg",
+      "thumb": "/images/category-covers/video-cover.jpg",
+      "name": "视频设计分类封面"
+    }
+  },
+  {
+    "summary": "收录早期品牌、视觉与综合设计实践。",
+    "id": "legacy",
+    "no": "06",
+    "color": "#8c8176",
+    "groups": [
+      {
+        "media": [
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_18",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-01.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-01.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_19",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-02.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-02.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_20",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-03.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-03.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_21",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-04.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-04.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_22",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-05.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-05.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_23",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-06.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-06.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_24",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-07.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-07.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_26",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-08.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-08.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_27",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-09.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-09.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_28",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-10.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-10.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_29",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-11.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-11.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_30",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-12.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-12.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_32",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-13.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-13.jpg"
+          },
+          {
+            "width": 1600,
+            "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_33",
+            "height": 909,
+            "type": "image",
+            "src": "/portfolio/legacy/project-01/image-14.jpg",
+            "thumb": "/portfolio/legacy/project-01/thumb-14.jpg"
+          }
+        ],
+        "title": "2025年以前的设计",
+        "description": "2025年以前的设计 项目，包含 14 个相关视觉或动态文件。",
+        "en": "PROJECT 01 / EARLIER WORK",
+        "long": false
+      }
+    ],
+    "en": "EARLIER WORK",
+    "count": "1 个项目 / 14 个文件",
+    "zh": "2025年以前设计",
+    "cover": {
+      "width": 1600,
+      "name": "吴烽华的作品集.pdf.b072e87508f93ae419e1c088be661e0b.20260622212849919_18",
+      "height": 909,
+      "type": "image",
+      "src": "/portfolio/legacy/project-01/image-01.jpg"
+    }
+  }
+]
