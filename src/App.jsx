@@ -15,6 +15,7 @@ const projects = [
   { id:'neon-museum', index:'01', title:'WA WU AI PLATFORM', cn:'挖物AI平台', tags:['AI 产品','品牌与界面','2025'], tone:'acid', description:'围绕 AI 创作工具的平台体验，完成产品视觉、核心界面与品牌表达的一体化设计。', metrics:['完整产品视觉','核心界面体系','AI 创作体验'], featuredCover:'/projects/woowu-ai/project-cover.jpg' },
   { id:'flux-interface', index:'02', title:'BAIMENG LIFE ARK', cn:'佰孟生命方舟', tags:['品牌设计','生命科技','2025'], tone:'ice', description:'以生命科技与未来生态为核心，建立兼具理性秩序与情感温度的品牌视觉系统。', metrics:['品牌识别系统','多场景延展','视觉内容规范'], featuredCover:'/projects/baimeng-life-ark/project-cover.jpg' },
   { id:'echo-character', index:'03', title:'WOOWU IP VISUAL DESIGN', cn:'挖物IP视觉设计', tags:['品牌 IP','视觉规范','IP SYSTEM'], tone:'violet', description:'围绕挖物品牌角色与应用场景，构建具备识别度、延展性与数字化表达的 IP 视觉系统。', metrics:['角色视觉设定','IP 规范系统','多场景应用延展'], featuredCover:'/projects/woowu-ip/featured-cover.png' },
+  { id:'bonfire-game', index:'04', title:'BONFIRE GAME DESIGN', cn:'篝火游戏设计', tags:['游戏全案','两代视觉','IDLE RPG'], tone:'ember', description:'以同一套策略放置玩法为核心，分别构建篝火2的古典奇幻绘本体系与篝火3的现代化视觉迭代。', metrics:['篝火2 · 古典奇幻','篝火3 · 现代迭代','角色 / UI / 实机'], featuredCover:'/projects/bonfire-game/cover-poster.webp' },
 ]
 
 const baimengCaseImages = [
@@ -26,6 +27,56 @@ const baimengCaseImages = [
   { src:'/projects/baimeng-life-ark/content-06.jpg', title:'科普馆空间设计', en:'EXHIBITION SYSTEM' },
 ]
 const woowuIpCaseImages = Array.from({length:17},(_,offset)=>{const number=offset+2;const label=String(number).padStart(2,'0');return {src:`/projects/woowu-ip/case-${label}.png`,title:`IP 视觉规范 ${label}`,en:`WOOWU IP VISUAL SYSTEM / ${label}`}})
+const bonfire2Characters = [
+  {src:'/projects/bonfire-game/b2-character-01.webp',name:'暗黑剑客',type:'深渊 / DARK KNIGHT'},
+  {src:'/projects/bonfire-game/b2-character-02.webp',name:'灯火小子',type:'法师 / FLAME MAGE'},
+  {src:'/projects/bonfire-game/b2-character-03.webp',name:'风精灵',type:'森之子 / WIND SPIRIT'},
+  {src:'/projects/bonfire-game/b2-character-04.webp',name:'寒霜守卫',type:'耀光 / FROST GUARD'},
+  {src:'/projects/bonfire-game/b2-character-05.webp',name:'精灵刺客',type:'森之子 / ELF ASSASSIN'},
+  {src:'/projects/bonfire-game/b2-character-06.webp',name:'精灵游侠',type:'森之子 / ELF RANGER'},
+  {src:'/projects/bonfire-game/b2-character-07.webp',name:'魔法树灵',type:'森之子 / TREE SPIRIT'},
+  {src:'/projects/bonfire-game/b2-character-08.webp',name:'神圣祭司',type:'耀光 / HOLY PRIEST'},
+  {src:'/projects/bonfire-game/b2-character-09.webp',name:'生命女王',type:'耀光 / LIFE QUEEN'},
+  {src:'/projects/bonfire-game/b2-character-10.webp',name:'石人守卫',type:'守卫 / STONE GUARD'},
+  {src:'/projects/bonfire-game/b2-character-11.webp',name:'烈火骑士',type:'深渊 / BLAZE KNIGHT'},
+  {src:'/projects/bonfire-game/b2-character-12.webp',name:'火凤法师',type:'法师 / PHOENIX MAGE'},
+]
+const bonfire2UiScreens = [
+  {src:'/projects/bonfire-game/b2-ui-01.webp',name:'主线地图',type:'MAIN QUEST'},
+  {src:'/projects/bonfire-game/b2-ui-02.webp',name:'副本系统',type:'DUNGEON'},
+  {src:'/projects/bonfire-game/b2-ui-03.webp',name:'工坊系统',type:'WORKSHOP'},
+  {src:'/projects/bonfire-game/b2-ui-04.webp',name:'角色信息',type:'HERO PROFILE'},
+  {src:'/projects/bonfire-game/b2-ui-05.webp',name:'开服活动',type:'LAUNCH EVENT'},
+  {src:'/projects/bonfire-game/b2-ui-06.webp',name:'商业礼包',type:'OFFER SYSTEM'},
+  {src:'/projects/bonfire-game/b2-ui-07.webp',name:'公会列表',type:'GUILD LIST'},
+  {src:'/projects/bonfire-game/b2-ui-08.webp',name:'公会成员',type:'GUILD MEMBERS'},
+]
+const bonfire2Gameplay = [
+  {src:'/projects/bonfire-game/b2-gameplay-01.webp',name:'世界探索',type:'WORLD MAP'},
+  {src:'/projects/bonfire-game/b2-gameplay-02.webp',name:'策略战斗',type:'TACTICAL COMBAT'},
+  {src:'/projects/bonfire-game/b2-gameplay-03.webp',name:'英雄招募',type:'HERO RECRUIT'},
+  {src:'/projects/bonfire-game/b2-gameplay-04.webp',name:'挂机收益',type:'IDLE REWARD'},
+  {src:'/projects/bonfire-game/b2-gameplay-05.webp',name:'阵容搭配',type:'FORMATION'},
+  {src:'/projects/bonfire-game/b2-gameplay-06.webp',name:'英雄成长',type:'PROGRESSION'},
+]
+const bonfire3Characters = [
+  {src:'/projects/bonfire-game/b3-character-01.webp',name:'赤刃追猎者',type:'MODERN HERO 01'},
+  {src:'/projects/bonfire-game/b3-character-02.webp',name:'发明家',type:'MODERN HERO 02'},
+  {src:'/projects/bonfire-game/b3-character-03.webp',name:'火焰法师',type:'MODERN HERO 03'},
+  {src:'/projects/bonfire-game/b3-character-04.webp',name:'火焰枪手',type:'MODERN HERO 04'},
+  {src:'/projects/bonfire-game/b3-character-05.webp',name:'机器蝎子',type:'MODERN HERO 05'},
+  {src:'/projects/bonfire-game/b3-character-06.webp',name:'乐团指挥家',type:'MODERN HERO 06'},
+  {src:'/projects/bonfire-game/b3-character-07.webp',name:'风暴法师',type:'MODERN HERO 07'},
+  {src:'/projects/bonfire-game/b3-character-08.webp',name:'后勤医生',type:'MODERN HERO 08'},
+]
+const bonfire3UiScreens = [
+  {src:'/projects/bonfire-game/b3-ui-01.webp',name:'荣誉系统',type:'HONOR SYSTEM'},
+  {src:'/projects/bonfire-game/b3-ui-02.webp',name:'挂机波次',type:'IDLE WAVE'},
+  {src:'/projects/bonfire-game/b3-ui-03.webp',name:'英雄简介',type:'HERO PROFILE'},
+  {src:'/projects/bonfire-game/b3-ui-04.webp',name:'星级强化',type:'STAR UPGRADE'},
+  {src:'/projects/bonfire-game/b3-ui-05.webp',name:'自定义荣誉墙',type:'CUSTOM HONOR'},
+  {src:'/projects/bonfire-game/b3-ui-06.webp',name:'好友系统',type:'SOCIAL SYSTEM'},
+]
 
 const experience = [
   { year:'2022.11—2025.04', role:'设计师', company:'福州佰孟生命科技有限公司', text:'主导品牌 VI 系统升级、小程序 UI 与电商视觉建设，并将 AI 嵌入团队工作流，提升品牌物料迭代与协作效率。' },
@@ -36,8 +87,29 @@ const experience = [
 function useRoute(){
   const parse=()=>window.location.pathname.replace(/^\//,'')||'home'
   const [route,setRoute]=useState(parse)
-  useEffect(()=>{const onPop=()=>setRoute(parse());window.addEventListener('popstate',onPop);return()=>window.removeEventListener('popstate',onPop)},[])
-  const navigate=(path)=>{window.history.pushState({},'',path);setRoute(parse());window.scrollTo({top:0,behavior:'instant'})}
+  const homeScrollKey='portfolio-home-scroll-position'
+  const restoreHomeScroll=()=>{
+    const saved=Number(sessionStorage.getItem(homeScrollKey))
+    if(!Number.isFinite(saved)||saved<=0){window.scrollTo({top:0,behavior:'instant'});return}
+    requestAnimationFrame(()=>requestAnimationFrame(()=>window.scrollTo({top:saved,behavior:'instant'})))
+  }
+  useEffect(()=>{
+    const onPop=()=>{
+      const nextRoute=parse()
+      setRoute(nextRoute)
+      if(nextRoute==='home')restoreHomeScroll()
+    }
+    window.addEventListener('popstate',onPop)
+    return()=>window.removeEventListener('popstate',onPop)
+  },[])
+  const navigate=(path,{restoreHomeScroll:shouldRestoreHomeScroll=false}={})=>{
+    const isOpeningDetail=location.pathname==='/'&&(path.startsWith('/project/')||path.startsWith('/archive/'))
+    if(isOpeningDetail)sessionStorage.setItem(homeScrollKey,String(window.scrollY))
+    window.history.pushState({},'',path)
+    setRoute(parse())
+    if(path==='/'&&shouldRestoreHomeScroll){restoreHomeScroll();return}
+    window.scrollTo({top:0,behavior:'instant'})
+  }
   return [route,navigate]
 }
 
@@ -84,7 +156,7 @@ function FolderProject({project,navigate}){
   return <button className={`folder-project tone-${project.tone} ${project.featuredCover?'has-project-cover':''}`} ref={card} onMouseMove={move} onMouseLeave={reset} onClick={()=>navigate(`/project/${project.id}`)}><div className="folder-stage"><div className="project-sheet">{project.featuredCover?<img src={project.featuredCover} alt={`${project.cn}项目封面`}/>:<><div className="sheet-grid"/><span>{project.index}</span><strong>{project.title}</strong><i>{project.cn}</i><div className="sheet-object"/></>}</div><div className="folder-back"><span>精选项目 / {project.tags[2]}</span></div><div className="folder-front"><div className="folder-tab">项目经历 {project.index}</div><h4 className="folder-project-title">{project.cn}<small>{project.title}</small></h4><div className="folder-info"><div><span>{project.tags[0]}</span><span>{project.tags[1]}</span></div><Arrow diagonal/></div></div></div><div className="project-caption"><h3>{project.title}</h3><span>{project.cn}</span></div></button>
 }
 
-function Featured({navigate}){return <section className="section featured" id="featured"><div className="section-label"><span>02</span> 项目经历 / PROJECT EXPERIENCE</div><div className="section-head bilingual-head"><h2>项目经历<small>PROJECT EXPERIENCE</small></h2><p>通过三个代表性项目，呈现我在 AI 产品、生命科技品牌与综合视觉实践中的思考与执行。</p></div><div className="folder-grid">{projects.map(project=><FolderProject key={project.id} project={project} navigate={navigate}/>)}</div></section>}
+function Featured({navigate}){return <section className="section featured" id="featured"><div className="section-label"><span>02</span> 项目经历 / PROJECT EXPERIENCE</div><div className="section-head bilingual-head"><h2>项目经历<small>PROJECT EXPERIENCE</small></h2><p>通过四个代表性项目，呈现我在 AI 产品、生命科技品牌、IP 视觉与游戏设计中的思考与执行。</p></div><div className="folder-grid">{projects.map(project=><FolderProject key={project.id} project={project} navigate={navigate}/>)}</div></section>}
 
 function PortfolioMedia({item,alt,className='',controls=false,preview=false,viewer=false}){
   if(item.type==='video'){
@@ -249,6 +321,22 @@ function MotionDirector({route}){
           gsap.from('.baimeng-cover-frame',{clipPath:'inset(0 0 100% 0)',scale:.96,duration:1.55,ease:'power4.inOut'})
           gsap.utils.toArray('.baimeng-case').forEach(card=>gsap.from(card,{y:90,autoAlpha:0,duration:1.25,ease:'power4.out',scrollTrigger:{trigger:card,start:'top 82%',once:true}}))
         }
+        if(route==='project/bonfire-game'){
+          gsap.timeline()
+            .from('.bf-back',{x:-28,autoAlpha:0,duration:.9,ease:'power3.out'})
+            .from('.bf-opening-poster',{clipPath:'inset(0 0 100% 0)',scale:.94,duration:1.7,ease:'power4.inOut'},.08)
+            .from('.bf-opening-side > *',{y:42,autoAlpha:0,duration:1.05,stagger:.12,ease:'power4.out'},.52)
+          gsap.from('.bf-series-copy > *, .bf-version-switch > *',{y:80,autoAlpha:0,duration:1.25,stagger:.11,ease:'power4.out',scrollTrigger:{trigger:'.bf-series',start:'top 70%',once:true}})
+          gsap.from('.bf-prologue-copy > *',{y:85,autoAlpha:0,duration:1.25,stagger:.13,ease:'power4.out',scrollTrigger:{trigger:'.bf-prologue',start:'top 68%',once:true}})
+          gsap.from('.bf-lore-item',{y:80,autoAlpha:0,duration:1.1,stagger:.14,ease:'power4.out',scrollTrigger:{trigger:'.bf-lore-grid',start:'top 82%',once:true}})
+          gsap.from('.bf-map-frame',{clipPath:'inset(0 100% 0 0)',duration:1.65,ease:'power4.inOut',scrollTrigger:{trigger:'.bf-map-frame',start:'top 80%',once:true}})
+          gsap.from('.bf-direction-item',{y:70,autoAlpha:0,duration:1.1,stagger:.13,ease:'power4.out',scrollTrigger:{trigger:'.bf-direction-grid',start:'top 84%',once:true}})
+          gsap.utils.toArray('.bf-gallery').forEach(gallery=>gsap.from(gallery.children,{y:110,rotationY:6,autoAlpha:0,duration:1.25,stagger:.08,ease:'power4.out',scrollTrigger:{trigger:gallery,start:'top 80%',once:true}}))
+          gsap.from('.bf-loop-step',{x:70,autoAlpha:0,duration:1,stagger:.1,ease:'power4.out',scrollTrigger:{trigger:'.bf-loop-steps',start:'top 84%',once:true}})
+          gsap.from('.bf-b3-intro-copy > *',{x:-90,autoAlpha:0,duration:1.25,stagger:.12,ease:'power4.out',scrollTrigger:{trigger:'.bf-b3-intro',start:'top 70%',once:true}})
+          gsap.from('.bf-b3-hero',{x:120,rotation:6,autoAlpha:0,duration:1.45,ease:'power4.out',scrollTrigger:{trigger:'.bf-b3-intro',start:'top 70%',once:true}})
+          gsap.utils.toArray('.bf-parallax').forEach(image=>gsap.fromTo(image,{yPercent:-3},{yPercent:4,ease:'none',scrollTrigger:{trigger:image.parentElement,start:'top bottom',end:'bottom top',scrub:1.2}}))
+        }
         ScrollTrigger.refresh()
       })
     })
@@ -260,15 +348,82 @@ function MotionDirector({route}){
 function Home({navigate}){return <><Header navigate={navigate}/><OpeningSequence/><main><Hero/><About/><Featured navigate={navigate}/><Archive navigate={navigate}/><Contact/></main></>}
 
 function WoowuProjectPage({project,next,navigate}){
-  return <div className="detail-page woowu-project"><Header navigate={navigate}/><main><section className="woowu-cover"><button className="back-link woowu-back" onClick={()=>navigate('/')}><span>←</span> 返回项目经历</button><div className="woowu-cover-glow"/><figure className="woowu-cover-frame"><img src="/projects/woowu-ai/detail-cover.jpg" alt="挖物AI平台项目封面"/><figcaption>PROJECT 01 / WOOWU AI PLATFORM</figcaption></figure></section><section className="woowu-overview section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><div className="woowu-overview-copy"><p>AI E-COMMERCE CONTENT PLATFORM / 2025</p><h1>挖物 AI 平台</h1><h2>{project.description}</h2></div><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="woowu-case-section"><header><span>02 / 项目全案</span><small>FULL CASE STUDY · SCROLL TO EXPLORE</small></header><div className="woowu-long-frame"><img src="/projects/woowu-ai/case-long.jpg" alt="挖物AI平台完整项目内容" loading="eager" decoding="async"/></div></section><section className="next-project woowu-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
+  return <div className="detail-page woowu-project"><Header navigate={navigate}/><main><section className="woowu-cover"><button className="back-link woowu-back" onClick={()=>navigate('/',{restoreHomeScroll:true})}><span>←</span> 返回项目经历</button><div className="woowu-cover-glow"/><figure className="woowu-cover-frame"><img src="/projects/woowu-ai/detail-cover.jpg" alt="挖物AI平台项目封面"/><figcaption>PROJECT 01 / WOOWU AI PLATFORM</figcaption></figure></section><section className="woowu-overview section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><div className="woowu-overview-copy"><p>AI E-COMMERCE CONTENT PLATFORM / 2025</p><h1>挖物 AI 平台</h1><h2>{project.description}</h2></div><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="woowu-case-section"><header><span>02 / 项目全案</span><small>FULL CASE STUDY · SCROLL TO EXPLORE</small></header><div className="woowu-long-frame"><img src="/projects/woowu-ai/case-long.jpg" alt="挖物AI平台完整项目内容" loading="eager" decoding="async"/></div></section><section className="next-project woowu-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
 }
 
 function BaimengProjectPage({project,next,navigate}){
-  return <div className="detail-page baimeng-project"><Header navigate={navigate}/><main><section className="baimeng-cover"><button className="back-link baimeng-back" onClick={()=>navigate('/')}><span>←</span> 返回项目经历</button><div className="baimeng-cover-frame"><img src="/projects/baimeng-life-ark/detail-cover.jpg" alt="佰孟生命方舟项目封面"/><span>PROJECT 02 / BAIMENG LIFE ARK</span></div></section><section className="baimeng-overview section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><div className="baimeng-overview-copy"><p>BAIMENG LIFE ARK / 2022—2025</p><h1>佰孟生命方舟</h1><h2>{project.description}</h2></div><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="baimeng-case-stack">{baimengCaseImages.map((item,index)=><figure className="baimeng-case" key={item.src}><figcaption><span>{String(index+1).padStart(2,'0')} / {item.title}</span><small>{item.en}</small></figcaption><img src={item.src} alt={`佰孟生命方舟${item.title}`} loading={index<2?'eager':'lazy'} decoding="async"/></figure>)}</section><section className="next-project baimeng-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
+  return <div className="detail-page baimeng-project"><Header navigate={navigate}/><main><section className="baimeng-cover"><button className="back-link baimeng-back" onClick={()=>navigate('/',{restoreHomeScroll:true})}><span>←</span> 返回项目经历</button><div className="baimeng-cover-frame"><img src="/projects/baimeng-life-ark/detail-cover.jpg" alt="佰孟生命方舟项目封面"/><span>PROJECT 02 / BAIMENG LIFE ARK</span></div></section><section className="baimeng-overview section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><div className="baimeng-overview-copy"><p>BAIMENG LIFE ARK / 2022—2025</p><h1>佰孟生命方舟</h1><h2>{project.description}</h2></div><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="baimeng-case-stack">{baimengCaseImages.map((item,index)=><figure className="baimeng-case" key={item.src}><figcaption><span>{String(index+1).padStart(2,'0')} / {item.title}</span><small>{item.en}</small></figcaption><img src={item.src} alt={`佰孟生命方舟${item.title}`} loading={index<2?'eager':'lazy'} decoding="async"/></figure>)}</section><section className="next-project baimeng-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
 }
 
 function WoowuIpProjectPage({project,next,navigate}){
-  return <div className="detail-page baimeng-project woowu-ip-project"><Header navigate={navigate}/><main><section className="baimeng-cover"><button className="back-link baimeng-back" onClick={()=>navigate('/')}><span>←</span> 返回项目经历</button><div className="baimeng-cover-frame"><img src="/projects/woowu-ip/detail-cover.jpg" alt="挖物IP视觉设计项目封面"/><span>PROJECT 03 / WOOWU IP VISUAL DESIGN</span></div></section><section className="baimeng-overview section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><div className="baimeng-overview-copy"><p>WOOWU IP VISUAL DESIGN / IP SYSTEM</p><h1>挖物 IP 视觉设计</h1><h2>{project.description}</h2></div><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="baimeng-case-stack">{woowuIpCaseImages.map((item,index)=><figure className="baimeng-case" key={item.src}><figcaption><span>{String(index+2).padStart(2,'0')} / {item.title}</span><small>{item.en}</small></figcaption><img src={item.src} alt={`挖物IP视觉设计 ${item.title}`} loading={index<2?'eager':'lazy'} decoding="async"/></figure>)}</section><section className="next-project baimeng-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
+  return <div className="detail-page baimeng-project woowu-ip-project"><Header navigate={navigate}/><main><section className="baimeng-cover"><button className="back-link baimeng-back" onClick={()=>navigate('/',{restoreHomeScroll:true})}><span>←</span> 返回项目经历</button><div className="baimeng-cover-frame"><img src="/projects/woowu-ip/detail-cover.jpg" alt="挖物IP视觉设计项目封面"/><span>PROJECT 03 / WOOWU IP VISUAL DESIGN</span></div></section><section className="baimeng-overview section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><div className="baimeng-overview-copy"><p>WOOWU IP VISUAL DESIGN / IP SYSTEM</p><h1>挖物 IP 视觉设计</h1><h2>{project.description}</h2></div><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="baimeng-case-stack">{woowuIpCaseImages.map((item,index)=><figure className="baimeng-case" key={item.src}><figcaption><span>{String(index+2).padStart(2,'0')} / {item.title}</span><small>{item.en}</small></figcaption><img src={item.src} alt={`挖物IP视觉设计 ${item.title}`} loading={index<2?'eager':'lazy'} decoding="async"/></figure>)}</section><section className="next-project baimeng-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
+}
+
+function BonfireGallery({items,className}){
+  const [activeIndex,setActiveIndex]=useState(null)
+  useEffect(()=>{
+    if(activeIndex===null)return undefined
+    const onKeyDown=event=>{
+      if(event.key==='Escape')setActiveIndex(null)
+      if(event.key==='ArrowRight')setActiveIndex(current=>(current+1)%items.length)
+      if(event.key==='ArrowLeft')setActiveIndex(current=>(current-1+items.length)%items.length)
+    }
+    const previousOverflow=document.body.style.overflow
+    document.body.style.overflow='hidden'
+    window.addEventListener('keydown',onKeyDown)
+    return()=>{document.body.style.overflow=previousOverflow;window.removeEventListener('keydown',onKeyDown)}
+  },[activeIndex,items.length])
+  const activeItem=activeIndex===null?null:items[activeIndex]
+  return <>{items.map((item,index)=><button className={className} key={item.src} onClick={()=>setActiveIndex(index)} aria-label={`查看${item.name}大图`}><span className="bf-frame-no">{String(index+1).padStart(2,'0')}</span><img src={item.src} alt={item.name} loading="lazy" decoding="async"/><span className="bf-card-caption"><strong>{item.name}</strong><small>{item.type}</small></span></button>)}{activeItem&&createPortal(<div className="bf-lightbox" role="dialog" aria-modal="true" aria-label={`${activeItem.name}大图预览`} onMouseDown={event=>{if(event.target===event.currentTarget)setActiveIndex(null)}}><button className="bf-lightbox-close" onClick={()=>setActiveIndex(null)}>关闭 ×</button><button className="bf-lightbox-prev" onClick={()=>setActiveIndex(current=>(current-1+items.length)%items.length)} aria-label="上一张">←</button><img src={activeItem.src} alt={activeItem.name}/><button className="bf-lightbox-next" onClick={()=>setActiveIndex(current=>(current+1)%items.length)} aria-label="下一张">→</button><p>{activeItem.name}<small>{activeItem.type} · {String(activeIndex+1).padStart(2,'0')} / {String(items.length).padStart(2,'0')}</small></p></div>,document.body)}</>
+}
+
+function BonfireSectionHead({no,en,zh,copy,light=false}){
+  return <header className={`bf-section-head ${light?'is-light':''}`}><span>{no} / {en}</span><div><h2>{zh}<small>{en}</small></h2><p>{copy}</p></div></header>
+}
+
+function BonfireProjectPage({project,next,navigate}){
+  return <div className="detail-page bonfire-project-v2"><Header navigate={navigate}/><main>
+    <section className="bf-opening">
+      <button className="back-link bf-back" onClick={()=>navigate('/',{restoreHomeScroll:true})}><span>←</span> 返回项目经历</button>
+      <img className="bf-opening-bg" src="/projects/bonfire-game/detail-cover.png" alt="" aria-hidden="true"/>
+      <div className="bf-opening-shade"/>
+      <img className="bf-opening-poster" src="/projects/bonfire-game/detail-cover.png" alt="篝火游戏设计项目封面"/>
+      <div className="bf-opening-side bf-opening-left"><span>PROJECT 04</span><small>GAME VISUAL DESIGN<br/>IDLE STRATEGY RPG</small></div>
+      <div className="bf-opening-side bf-opening-right"><span>II / III</span><small>TWO GENERATIONS<br/>ONE GAMEPLAY DNA</small></div>
+    </section>
+    <section className="bf-series section">
+      <div className="bf-series-copy"><span>01 / SERIES OVERVIEW</span><h1>同一套放置策略，<br/>两次视觉进化。</h1><div><p>{project.description}</p><p>两款项目的玩法均参考经典放置 RPG 框架，以英雄收集、阵营克制、阵容站位和挂机成长为核心。篝火2强调古典奇幻绘本的沉浸感；篝火3则在相同玩法基础上探索更现代的角色与界面语言。</p></div></div>
+      <nav className="bf-version-switch" aria-label="篝火项目版本导航"><a href="#bonfire-2"><span>II</span><div><strong>篝火2</strong><small>古典奇幻 · 重点项目</small></div><i>进入主项目 ↓</i></a><a href="#bonfire-3"><span>III</span><div><strong>篝火3</strong><small>现代风格 · 视觉迭代</small></div><i>查看迭代 ↓</i></a></nav>
+    </section>
+    <section className="bf-prologue" id="bonfire-2">
+      <img className="bf-prologue-map bf-parallax" src="/projects/bonfire-game/map-factions.jpg" alt="艾瑟拉大陆势力地图"/>
+      <div className="bf-prologue-shade"/>
+      <div className="bf-prologue-copy section"><span>BONFIRE II · THE TWILIGHT OF AETHERA</span><h2>“当艾瑟拉的群星逐渐沉沦，唯有这簇不灭的篝火，是撕裂长夜的利刃。”</h2><div><p>《篝火》是一款设定在经典“剑与魔法”世界中的策略放置类 RPG。深邃的宏大叙事构成骨架，古典绘本式视觉构成皮相，玩家将在长夜中集结英雄、寻找薪柴，并重新点燃散落于大陆的原初篝火。</p><ul><li>策略放置 RPG</li><li>英雄群像与阵营克制</li><li>古典奇幻绘本风格</li></ul></div></div>
+    </section>
+    <section className="bf-world section">
+      <BonfireSectionHead no="02" en="WORLD & NARRATIVE" zh="艾瑟拉的黄昏与余烬" copy="世界观围绕灾厄、篝火与守火人的宿命展开，地图不仅承担叙事氛围，也连接探索、关卡与阵营关系。"/>
+      <div className="bf-lore-grid"><article className="bf-lore-item"><span>01</span><h3>长夜降临</h3><p>未知灾厄“蚀界之影”吞噬大陆生机。众神陨落，帝国崩塌，无尽迷雾将文明切割成孤立废墟。</p></article><article className="bf-lore-item"><span>02</span><h3>原初篝火</h3><p>先知遗留的篝火能够驱散迷雾、抵御灾厄，成为残存智慧种族最后的庇护所。</p></article><article className="bf-lore-item"><span>03</span><h3>守火人的宿命</h3><p>玩家集结不同种族与阵营的英雄，以篝火为据点，寻找薪柴并逐步驱散永夜。</p></article></div>
+      <figure className="bf-map-frame"><img src="/projects/bonfire-game/map-factions.jpg" alt="艾瑟拉大陆完整势力地图" loading="eager"/><figcaption><span>AETHERA WORLD MAP 3.0</span><small>地貌 / 势力 / 探索路径</small></figcaption></figure>
+      <div className="bf-direction-grid"><article className="bf-direction-item"><span>ART 01</span><h3>彩绘玻璃与塔罗牌</h3><p>硬朗而富装饰性的线条、大块高对比色与中世纪羊皮纸质感，共同形成“可以玩的古典奇幻绘本”。</p></article><article className="bf-direction-item"><span>ART 02</span><h3>火与暗的对照</h3><p>冷色废墟、幽蓝迷雾与深渊暗紫构成世界底色；赤红、鎏金与明黄只在篝火和技能高光中出现。</p></article><article className="bf-direction-item"><span>ART 03</span><h3>阵营识别系统</h3><p>耀光的银金秩序、森之子的自然纹样、深渊遗民的破碎哥特线条，让角色在群像中保持清晰归属。</p></article></div>
+    </section>
+    <section className="bf-b2-characters">
+      <div className="section"><BonfireSectionHead no="03" en="BONFIRE II · CHARACTER ART" zh="篝火2 · 角色立绘" copy="角色设计以阵营、职业和剪影为第一识别层，通过武器、姿态与受控的高饱和色建立英雄群像。" light/><div className="bf-gallery bf-b2-character-grid"><BonfireGallery items={bonfire2Characters} className="bf-character-card is-b2"/></div></div>
+    </section>
+    <section className="bf-b2-ui section">
+      <BonfireSectionHead no="04" en="BONFIRE II · UI DESIGN" zh="篝火2 · 游戏界面" copy="UI 与角色立绘分开展示。界面以羊皮纸、金色装饰框和阵营色为基础，覆盖主线、副本、角色、工坊、活动和公会系统。"/>
+      <div className="bf-ui-note"><p>竖屏信息密度较高，因此通过统一顶部资源栏、品质框、分页标签和主操作按钮稳定浏览顺序；核心角色图被用作功能入口的视觉锚点。</p><span>08 SELECTED SCREENS<br/>CLASSIC FANTASY UI</span></div>
+      <div className="bf-gallery bf-ui-grid is-b2"><BonfireGallery items={bonfire2UiScreens} className="bf-ui-card is-b2"/></div>
+    </section>
+    <section className="bf-b2-gameplay">
+      <div className="section"><BonfireSectionHead no="05" en="BONFIRE II · CORE EXPERIENCE" zh="篝火2 · 核心玩法" copy="玩法对齐美术与世界观：围绕篝火形成挂机收益、英雄招募、阵容搭配、战斗推进和持续成长的循环。" light/><div className="bf-loop-steps"><article className="bf-loop-step"><b>01</b><span>守火挂机</span><small>收集薪柴与成长资源</small></article><article className="bf-loop-step"><b>02</b><span>集结英雄</span><small>建立职业和阵营羁绊</small></article><article className="bf-loop-step"><b>03</b><span>排兵布阵</span><small>站位、克制与技能时机</small></article><article className="bf-loop-step"><b>04</b><span>点燃大陆</span><small>推进地图并驱散永夜</small></article></div><div className="bf-gallery bf-gameplay-grid"><BonfireGallery items={bonfire2Gameplay} className="bf-gameplay-card"/></div></div>
+    </section>
+    <section className="bf-assets section"><BonfireSectionHead no="06" en="BONFIRE II · ASSET SYSTEM" zh="道具与纹章资产" copy="统一轮廓、材质光源和品质色，形成可批量扩展的资源图标与纹章库，为持续内容生产提供稳定规范。"/><div className="bf-assets-grid"><figure><img src="/projects/bonfire-game/asset-items.png" alt="篝火2道具与资源图标" loading="lazy"/><figcaption>ITEM & RESOURCE ICONS / 46 FILES</figcaption></figure><figure><img src="/projects/bonfire-game/asset-emblems.png" alt="篝火2纹章系统" loading="lazy"/><figcaption>EMBLEM SYSTEM / 66 FILES</figcaption></figure></div></section>
+    <section className="bf-b3-intro" id="bonfire-3"><div className="bf-b3-intro-copy section"><span>BONFIRE III · MODERN ITERATION</span><h2>同一玩法骨架，<br/>进入更现代的视觉语境。</h2><p>篝火3延续英雄收集、放置成长与阵容策略，仅对视觉方向进行现代化迭代。角色强化能量特效、机械结构与更锐利的剪影；UI 转向深色底、紫色强调和更模块化的信息组织。</p><div><b>SHARED</b><span>放置成长 / 英雄收集 / 阵营策略</span><b>UPDATED</b><span>现代角色 / 深色 UI / 模块化信息</span></div></div><img className="bf-b3-hero" src="/projects/bonfire-game/b3-character-01.webp" alt="篝火3现代角色立绘" loading="lazy"/></section>
+    <section className="bf-b3-characters section"><BonfireSectionHead no="07" en="BONFIRE III · CHARACTER ART" zh="篝火3 · 现代角色" copy="保留英雄群像与职业差异，在轮廓、机械结构、霓虹能量和特效方向上建立更现代的辨识度。"/><div className="bf-gallery bf-b3-character-grid"><BonfireGallery items={bonfire3Characters} className="bf-character-card is-b3"/></div></section>
+    <section className="bf-b3-ui"><div className="section"><BonfireSectionHead no="08" en="BONFIRE III · UI DESIGN" zh="篝火3 · 现代界面" copy="角色立绘与 UI 继续分章展示。深色界面承载战斗与社交模块，紫色能量条和斜切组件强化速度与科技感。" light/><div className="bf-gallery bf-ui-grid is-b3"><BonfireGallery items={bonfire3UiScreens} className="bf-ui-card is-b3"/></div></div></section>
+    <section className="bf-conclusion"><span>BONFIRE II / BONFIRE III</span><h2>玩法保持一致，视觉持续进化。</h2><p>篝火2以古典绘本构建艾瑟拉的史诗感，篝火3用现代角色和界面语言完成下一阶段探索。两代项目共同形成从世界观、角色、UI到实机验证的完整游戏视觉设计实践。</p></section>
+    <section className="next-project bf-next"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section>
+  </main></div>
 }
 
 function ProjectPage({id,navigate}){
@@ -276,7 +431,8 @@ function ProjectPage({id,navigate}){
   if(project.id==='neon-museum')return <WoowuProjectPage project={project} next={next} navigate={navigate}/>
   if(project.id==='flux-interface')return <BaimengProjectPage project={project} next={next} navigate={navigate}/>
   if(project.id==='echo-character')return <WoowuIpProjectPage project={project} next={next} navigate={navigate}/>
-  return <div className={`detail-page tone-${project.tone}`}><Header navigate={navigate}/><main><section className="detail-hero"><button className="back-link" onClick={()=>navigate('/')}><span>←</span> 返回作品索引</button><div className="detail-title"><span>精选项目 / {project.index}</span><h1>{project.title}</h1><p>{project.cn}</p></div><div className="detail-art"><div className="detail-orb"/><div className="detail-grid"/><b>{project.index}</b></div><div className="detail-meta">{project.tags.map(tag=><span key={tag}>{tag}</span>)}</div></section><section className="detail-intro section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><h2>{project.description}</h2><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="case-grid section">{[1,2,3,4].map(item=><div className={`case-visual visual-${item}`} key={item}><span>0{item} / 视觉研究</span><i/></div>)}</section><section className="next-project"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
+  if(project.id==='bonfire-game')return <BonfireProjectPage project={project} next={next} navigate={navigate}/>
+  return <div className={`detail-page tone-${project.tone}`}><Header navigate={navigate}/><main><section className="detail-hero"><button className="back-link" onClick={()=>navigate('/',{restoreHomeScroll:true})}><span>←</span> 返回作品索引</button><div className="detail-title"><span>精选项目 / {project.index}</span><h1>{project.title}</h1><p>{project.cn}</p></div><div className="detail-art"><div className="detail-orb"/><div className="detail-grid"/><b>{project.index}</b></div><div className="detail-meta">{project.tags.map(tag=><span key={tag}>{tag}</span>)}</div></section><section className="detail-intro section"><div className="section-label"><span>01</span> 项目概述 / OVERVIEW</div><h2>{project.description}</h2><div className="metrics">{project.metrics.map(metric=><div key={metric}>{metric}</div>)}</div></section><section className="case-grid section">{[1,2,3,4].map(item=><div className={`case-visual visual-${item}`} key={item}><span>0{item} / 视觉研究</span><i/></div>)}</section><section className="next-project"><p>下一个项目 / NEXT</p><button onClick={()=>navigate(`/project/${next.id}`)}>{next.title} <Arrow/></button></section></main></div>
 }
 
 function WorkGroup({group,index}){
@@ -322,6 +478,6 @@ function GroupCopy({group,index,count}){return <div className="group-copy"><span
 function ArchivePage({id,navigate}){
   const category=categories.find(item=>item.id===id)||categories[0]
   const compact=category.groups.length>6
-  return <div className="archive-page" style={{'--category-color':category.color}}><Header navigate={navigate}/><main><section className="archive-page-head"><button className="back-link" onClick={()=>navigate('/')}><span>←</span> 返回全部作品分类</button><span>{category.no} / 作品索引</span><h1>{category.en}</h1><p>{category.zh} · {category.count}</p></section><section className={`portfolio-groups section ${compact?'compact-groups':''}`}>{category.groups.map((group,index)=><WorkGroup key={`${group.title}-${index}`} group={group} index={index}/>)}</section></main></div>
+  return <div className="archive-page" style={{'--category-color':category.color}}><Header navigate={navigate}/><main><section className="archive-page-head"><button className="back-link" onClick={()=>navigate('/',{restoreHomeScroll:true})}><span>←</span> 返回全部作品分类</button><span>{category.no} / 作品索引</span><h1>{category.en}</h1><p>{category.zh} · {category.count}</p></section><section className={`portfolio-groups section ${compact?'compact-groups':''}`}>{category.groups.map((group,index)=><WorkGroup key={`${group.title}-${index}`} group={group} index={index}/>)}</section></main></div>
 }
 export default function App(){const [route,navigate]=useRoute();let page=<Home navigate={navigate}/>;if(route.startsWith('project/'))page=<ProjectPage id={route.split('/')[1]} navigate={navigate}/>;if(route.startsWith('archive/'))page=<ArchivePage id={route.split('/')[1]} navigate={navigate}/>;return <><CursorGlow/><MotionDirector route={route}/>{page}</>}
